@@ -310,6 +310,8 @@ When finishing installation, click Tools in the Menus again and select Board: "A
 .. image:: ../_static/imgs/Preface/Preface44.png
     :align: center
 
+.. _GPIO:
+
 Notes for GPIO
 *********************************
 

@@ -110,7 +110,7 @@ In the circuit connection, LED and button are connected with GPIO2 and GPIO13 re
     #define PIN_LED    2
     #define PIN_BUTTON 13
 
-In the while cycle of main function, use digitalRead(buttonPin) to determine the state of button. When the button is pressed, the function returns low level, the result of “if" is true, and then turn on LED. Otherwise, turn off LED.
+In the while cycle of main function, use digitalRead(buttonPin) to determine the state of button. When the button is pressed, the function returns low level, the result of "if" is true, and then turn on LED. Otherwise, turn off LED.
 
 .. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_02.1_ButtonAndLed/Sketch_02.1_ButtonAndLed.ino
     :linenos: 
@@ -123,7 +123,7 @@ Reference
 
 .. py:function:: int digitalRead (int pin);
 
-    This function returns the value read at the given pin. It will be “HIGH" or “LOW"(1 or 0) depending on the logic level at the pin.
+    This function returns the value read at the given pin. It will be "HIGH" or "LOW"(1 or 0) depending on the logic level at the pin.
 
 Project 2.2 MINI table lamp
 ******************************************

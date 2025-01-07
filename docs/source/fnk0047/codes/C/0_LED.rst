@@ -2,7 +2,7 @@
 0. Chapter LED
 ##############################################################################
 
-This chapter is the Start Point in the journey to build and explore ESP32 electronic projects. We will start with simple “Blink" project.
+This chapter is the Start Point in the journey to build and explore ESP32 electronic projects. We will start with simple "Blink" project.
 
 Project 0.1 Blink
 ************************************
