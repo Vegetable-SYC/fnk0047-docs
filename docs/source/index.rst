@@ -47,7 +47,7 @@ FNK0047
    fnk0047/codes/C/13_Thermistor.rst
    fnk0047/codes/C/14_Joystick.rst
    fnk0047/codes/C/15_74HC595_&_LED_Bar_Graph.rst
-   fnk0047/codes/C/16_74HC595_&_7-Segment_Display..rst
+   fnk0047/codes/C/16_74HC595_&_7-Segment_Display.rst
    fnk0047/codes/C/16_74HC595_&_LED_Matrix.rst
    fnk0047/codes/C/17_Relay_&_Motor.rst
    fnk0047/codes/C/17.2_Motor_&_Driver.rst

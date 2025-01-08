@@ -57,9 +57,53 @@ The circuit below is used to detect the change of a photoresistor's resistance v
 .. image:: ../_static/imgs/12_Photoresistor_&_LED/Chapter12_01.png
     :align: center
 
-In the above circuit, when a photoresistor'      s resistance vale changes due to a change in light intensity, the voltage between the photoresistor and resistor R1 will also change. Therefore, the intensity of the light can be obtained by measuring this voltage.
+In the above circuit, when a photoresistor's resistance vale changes due to a change in light intensity, the voltage between the photoresistor and resistor R1 will also change. Therefore, the intensity of the light can be obtained by measuring this voltage.
 
 Circuit
 ===============================
 
 The circuit of this project is similar to project Soft Light. The only difference is that the input signal is changed from a potentiometer to a combination of a photoresistor and a resistor.
+
+.. list-table:: 
+   :width: 100%
+   :header-rows: 1 
+   :align: center
+   
+   * -  Schematic diagram
+   * -  |Chapter12_02|
+   * -  Hardware connection. 
+       
+        :red:`If you need any support, please contact us via:` support@freenove.com
+   * -  |Chapter12_03|
+
+.. |Chapter12_02| image:: ../_static/imgs/12_Photoresistor_&_LED/Chapter12_02.png    
+.. |Chapter12_03| image:: ../_static/imgs/12_Photoresistor_&_LED/Chapter12_03.png  
+
+Sketch
+==================================
+
+The circuit used is similar to the project Soft Light. The only difference is that the input signal of the AIN0 pin of ADC changes from a potentiometer to a combination of a photoresistor and a resistor.
+
+Sketch_12.1_Nightlamp
+------------------------------------
+
+.. image:: ../_static/imgs/12_Photoresistor_&_LED/Chapter12_04.png
+    :align: center
+
+Download the code to ESP32-WROVER, if you cover the photoresistor or increase the light shining on it, the brightness of the LED changes accordingly. 
+
+The following is the program code:
+
+.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_12.1_NightLamp/Sketch_12.1_NightLamp.ino
+    :linenos: 
+    :language: c
+    :dedent:
+
+Reference
+----------------------------------
+
+.. py:function:: constrain(amt,low,high)
+
+    #define constrain(amt,low,high) ((amt)<(low)? (low):((amt)>(high)? (high):(amt)))
+    
+    Constrain the value amt between low and high.
