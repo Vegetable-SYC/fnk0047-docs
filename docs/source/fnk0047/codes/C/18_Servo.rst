@@ -26,6 +26,9 @@ Component List
 | |Chapter18_00|                     |  |Chapter01_05|                                    |
 +------------------------------------+----------------------------------------------------+
 
+.. |Chapter01_00| image:: ../_static/imgs/1_LED/Chapter01_00.png
+.. |Chapter01_01| image:: ../_static/imgs/1_LED/Chapter01_01.png
+.. |Chapter01_02| image:: ../_static/imgs/1_LED/Chapter01_02.png
 .. |Chapter18_00| image:: ../_static/imgs/18_Servo/Chapter18_00.png
 .. |Chapter01_05| image:: ../_static/imgs/1_LED/Chapter01_05.png
 
@@ -207,3 +210,89 @@ Use caution when supplying power to the servo, it should be 5V. Make sure you do
 
 .. |Chapter18_07| image:: ../_static/imgs/18_Servo/Chapter18_07.png
 .. |Chapter18_08| image:: ../_static/imgs/18_Servo/Chapter18_08.png
+
+Sketch
+========================================
+
+How to install the library
+----------------------------------------
+
+If you haven't installed it yet, please do so before learning. The steps to add third-party Libraries are as follows: open arduino->Sketch->Include library-> Manage libraries.   Enter " ESP32Servo" in the search bar and select "ESP32Servo" for installation. Refer to the following operations:
+
+.. image:: ../_static/imgs/18_Servo/Chapter18_09.png
+    :align: center
+
+Use the ESP32Servo library to control the servo motor and let the servo motor rotate back and forth.
+
+Sketch_18.1_Servo_Sweep
+----------------------------------------
+
+.. image:: ../_static/imgs/18_Servo/Chapter18_10.png
+    :align: center
+
+Compile and upload the code to ESP32-WROVER, the servo will rotate from 0 degrees to 180 degrees and then reverse the direction to make it rotate from 180 degrees to 0 degrees and repeat these actions in an endless loop.
+
+.. image:: ../_static/imgs/18_Servo/Chapter18_11.png
+    :align: center
+
+The following is the program code:
+
+.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_18.1_Servo_Sweep/Sketch_18.1_Servo_Sweep.ino
+    :linenos: 
+    :language: c
+    :dedent:
+
+Servo uses the ESP32Servo library, like the following reference to ESP32Servo library:
+
+.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_18.1_Servo_Sweep/Sketch_18.1_Servo_Sweep.ino
+    :linenos: 
+    :language: c
+    :lines: 7-7
+    :dedent:
+
+ESP32Servo library provides the ESP32Servo class that controls it. ESP32Servo class must be instantiated before using:
+
+.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_18.1_Servo_Sweep/Sketch_18.1_Servo_Sweep.ino
+    :linenos: 
+    :language: c
+    :lines: 9-9
+    :dedent:
+
+Set the control servo motor pin, the time range of high level.
+
+.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_18.1_Servo_Sweep/Sketch_18.1_Servo_Sweep.ino
+    :linenos: 
+    :language: c
+    :lines: 16-16
+    :dedent:
+
+After initializing the servo, you can control the servo to rotate to a specific angle:
+
+.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_18.1_Servo_Sweep/Sketch_18.1_Servo_Sweep.ino
+    :linenos: 
+    :language: c
+    :lines: 21-21
+    :dedent:
+
+Reference
+-------------------------------------
+
+.. py:function:: class Servo
+
+    Servo class must be instantiated when used, that is, define an object of Servo type, for example:
+	
+    Servo myservo;
+	
+    The function commonly used in the servo class is as follows:
+	
+    setPeriodHertz(data): Set the frequency of the servo motor.
+	
+    attach(pin,low,high): Initialize the servo,
+	
+    	pin: the port connected to servo signal line.
+	
+    	low: set the time of high level corresponding to 0 degree.
+	
+    	high: set the time of high level corresponding to 180 degrees.
+	
+    write(angle): Control servo to rotate to the specified angle.
