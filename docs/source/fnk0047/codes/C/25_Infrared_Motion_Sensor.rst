@@ -122,7 +122,7 @@ You can rotate the potentiometer on the sensor to adjust the detection effect, o
 Apart from that, you can also use this sensor to control some other modules to implement different functions by reediting the code, such as the induction lamp, induction door.
 
 .. list-table:: 
-   :width: 80%
+   :width: 100%
    :header-rows: 1 
    :align: center
    
@@ -167,3 +167,4 @@ Apart from that, you can also use this sensor to control some other modules to i
 |              |                                                                                     |
 |              | outputs a high level for a period of time, and then outputs a low level.            |
 +--------------+-------------------------------------------------------------------------------------+
+

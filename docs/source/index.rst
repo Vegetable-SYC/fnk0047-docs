@@ -64,7 +64,7 @@ FNK0047
    fnk0047/codes/C/28_Bluetooth_Media_by_DAC.rst
    fnk0047/codes/C/29_Bluetooth_Media_by_Audio_Module.rst
    fnk0047/codes/C/30_Read_and_Write_the_Sdcard.rst
-   fnk0047/codes/C/31_Play_SD_card_music.rst.rst
+   fnk0047/codes/C/31_Play_SD_card_music.rst
    fnk0047/codes/C/32_WiFi_Working_Modes.rst
    fnk0047/codes/C/33_TCP_IP.rst
    fnk0047/codes/C/34_Camera_Web_Server.rst
