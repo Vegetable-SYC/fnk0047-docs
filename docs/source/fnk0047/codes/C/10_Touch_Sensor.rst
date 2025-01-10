@@ -87,8 +87,8 @@ Circuit
         :red:`If you need any support, please contact us via:` support@freenove.com
    * -  |Chapter10_02|
 
-.. |Chapter10_01| image:: ../_static/imgs/1_LED/Chapter10_01.png    
-.. |Chapter10_02| image:: ../_static/imgs/1_LED/Chapter10_02.png    
+.. |Chapter10_01| image:: ../_static/imgs/10_Touch_Sensor/Chapter10_01.png    
+.. |Chapter10_02| image:: ../_static/imgs/10_Touch_Sensor/Chapter10_02.png    
 
 Sketch
 ===========================================

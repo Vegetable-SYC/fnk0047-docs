@@ -29,7 +29,7 @@ Component List
 .. |Chapter01_00| image:: ../_static/imgs/1_LED/Chapter01_00.png
 .. |Chapter01_01| image:: ../_static/imgs/1_LED/Chapter01_01.png
 .. |Chapter01_02| image:: ../_static/imgs/1_LED/Chapter01_02.png
-.. |Chapter13_00| image:: ../_static/imgs/1_LED/Chapter13_00.png 
+.. |Chapter13_00| image:: ../_static/imgs/13_Thermistor/Chapter13_00.png 
 .. |Chapter07_04| image:: ../_static/imgs/7_Buzzer/Chapter07_04.png   
 .. |Chapter01_05| image:: ../_static/imgs/1_LED/Chapter01_05.png
 .. |Chapter09_00| image:: ../_static/imgs/9_AD_DA_Converter/Chapter09_00.png

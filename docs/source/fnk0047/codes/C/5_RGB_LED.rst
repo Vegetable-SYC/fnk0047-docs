@@ -38,12 +38,12 @@ Related knowledge
 
 RGB LED has integrated 3 LEDs that can respectively emit red, green and blue light. And it has 4 pins. The long pin (1) is the common port, that is, 3 LED 's positive or negative port. The RGB LED with common positive port and its symbol is shown below. We can make RGB LED emit various colors of light by controlling these 3 LEDs to emit light with different brightness, 
 
-.. image:: ../_static/imgs/4_Analog_&_PWM/Chapter05_01.png
+.. image:: ../_static/imgs/5_RGB_LED/Chapter05_01.png
     :align: center
 
 Red, green, and blue are known as three primary colors. When you combine these three primary-color lights with different brightness, it can produce almost all kinds of visible lights. Computer screens, single pixel of cell phone screen, neon, and etc. are working under this principle.
 
-.. image:: ../_static/imgs/4_Analog_&_PWM/Chapter05_02.png
+.. image:: ../_static/imgs/5_RGB_LED/Chapter05_02.png
     :align: center
 
 If we use three 8-bit PWMs to control the RGB LED, in theory, we can create 28*28*28=16777216 (16 million) colors through different combinations.

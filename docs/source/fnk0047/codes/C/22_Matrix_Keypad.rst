@@ -66,8 +66,8 @@ Circuit
 
         |Chapter22_04|
 
-.. |Chapter22_03| image:: ../_static/imgs/19_Stepper_Motor/Chapter22_03.png
-.. |Chapter22_04| image:: ../_static/imgs/19_Stepper_Motor/Chapter22_04.png
+.. |Chapter22_03| image:: ../_static/imgs/22_Matrix_Keypad/Chapter22_03.png
+.. |Chapter22_04| image:: ../_static/imgs/22_Matrix_Keypad/Chapter22_04.png
 
 Sketch
 =============================================
