@@ -191,7 +191,7 @@ Component List
 .. |Chapter15_00| image:: ../_static/imgs/15_74HC595_&_LED_Bar_Graph/Chapter15_00.png 
 .. |Chapter01_04| image:: ../_static/imgs/1_LED/Chapter01_04.png    
 .. |Chapter01_05| image:: ../_static/imgs/1_LED/Chapter01_05.png
-.. |Chapter16_07| image:: ../_static/imgs/16_74HC595_&_7-Segment_Display./Chapter16_07.png
+.. |Chapter16_07| image:: ../_static/imgs/16_74HC595_&_7-Segment_Display/Chapter16_07.png
 
 Component knowledge
 =============================================

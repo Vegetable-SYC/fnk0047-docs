@@ -250,27 +250,27 @@ Reference
     
     **softAP(ssid, password, channel, ssid_hidden, max_connection):**
     
-    **ssid: **WiFi hotspot name
+    **ssid: ** WiFi hotspot name
     
-    **password: **WiFi hotspot password
+    **password: ** WiFi hotspot password
     
-    **channel: **Number of WiFi connection channels, range 1-13. The default is 1.
+    **channel: ** Number of WiFi connection channels, range 1-13. The default is 1.
     
-    **ssid_hidden: **Whether to hide WiFi name from scanning by other devices. The default is not hide.
+    **ssid_hidden: ** Whether to hide WiFi name from scanning by other devices. The default is not hide.
     
-    **max_connection: **Maximum number of WiFi connected devices. The range is 1-4. The default is 4.
+    **max_connection: ** Maximum number of WiFi connected devices. The range is 1-4. The default is 4.
     
-    **softAPConfig(local_ip, gateway, subnet): **set static local IP address. 
+    **softAPConfig(local_ip, gateway, subnet): ** set static local IP address. 
     
-    **local_ip: **station fixed IP address.
+    **local_ip: ** station fixed IP address.
     
-    **Gateway: **gateway IP address
+    **Gateway: ** gateway IP address
     
-    **subnet: **subnet mask
+    **subnet: ** subnet mask
     
-    **softAP(): **obtian IP address in AP mode 
+    **softAP(): ** obtian IP address in AP mode 
     
-    **softAPdisconnect (): **disconnect AP mode.
+    **softAPdisconnect (): ** disconnect AP mode.
 
 Project AP+Station mode
 ******************************************
