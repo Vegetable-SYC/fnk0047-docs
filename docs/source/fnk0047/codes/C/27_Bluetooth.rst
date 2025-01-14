@@ -219,7 +219,7 @@ In the Scan page, swipe down to refresh the name of Bluetooth that the phone sea
 .. image:: ../_static/imgs/27_Bluetooth/Chapter27_21.png
     :align: center
 
-Click “Receive”. Select the appropriate Data format in the box to the right of Data Format. For example, HEX for hexadecimal, utf-string for character, Binary for Binary, etc. Then click SUBSCRIBE.
+Click "Receive". Select the appropriate Data format in the box to the right of Data Format. For example, HEX for hexadecimal, utf-string for character, Binary for Binary, etc. Then click SUBSCRIBE.
 
 .. image:: ../_static/imgs/27_Bluetooth/Chapter27_22.png
     :align: center
@@ -234,7 +234,7 @@ And then you can see the mobile Bluetooth has received the message.
 .. image:: ../_static/imgs/27_Bluetooth/Chapter27_24.png
     :align: center
 
-Similarly, you can select “Send” on your phone. Set Data format, and then enter anything in the sending box and click Write to send.
+Similarly, you can select "Send" on your phone. Set Data format, and then enter anything in the sending box and click Write to send.
 
 .. image:: ../_static/imgs/27_Bluetooth/Chapter27_25.png
     :align: center

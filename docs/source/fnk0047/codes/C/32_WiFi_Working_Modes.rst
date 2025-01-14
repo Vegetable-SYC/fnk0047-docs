@@ -49,14 +49,14 @@ Sketch_32.1_Station_mode
 .. image:: ../_static/imgs/32_WiFi_Working_Modes/Chapter32_02.png
     :align: center
 
-Because the names and passwords of routers in various places are different, before the Sketch runs, users need to enter the correct router’s name and password in the box as shown in the illustration above.
+Because the names and passwords of routers in various places are different, before the Sketch runs, users need to enter the correct router's name and password in the box as shown in the illustration above.
 
 After making sure the router name and password are entered correctly, compile and upload codes to ESP32-WROVER, open serial monitor and set baud rate to 115200. And then it will display as follows:
 
 .. image:: ../_static/imgs/32_WiFi_Working_Modes/Chapter32_03.png
     :align: center
 
-When ESP32-WROVER successfully connects to “ssid_Router”, serial monitor will print out the IP address assigned to ESP32-WROVER by the router.
+When ESP32-WROVER successfully connects to "ssid_Router", serial monitor will print out the IP address assigned to ESP32-WROVER by the router.
 
 The following is the program code:
 

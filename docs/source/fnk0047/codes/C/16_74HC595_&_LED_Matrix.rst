@@ -120,7 +120,7 @@ The following is the program code:
     :language: c
     :dedent:
 
-The first “for” loop in the “while” loop is used to display a static smile. Displaying column information from left to right, one column at a time with a total of 8 columns. This repeats 500 times to ensure sufficient display time.
+The first "for" loop in the "while" loop is used to display a static smile. Displaying column information from left to right, one column at a time with a total of 8 columns. This repeats 500 times to ensure sufficient display time.
 
 .. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_16.3_LED_Matrix/Sketch_16.3_LED_Matrix.ino
     :linenos: 
@@ -128,7 +128,7 @@ The first “for” loop in the “while” loop is used to display a static smi
     :lines: 45-56
     :dedent:
 
-The second “for” loop is used to display scrolling characters "0 to F", for a total of 17* 8 = 144 columns. Displaying the 0-8 column, then the 1-9 column, then the 2-10 column...... and so on…128-136 column in consecutively to achieve the scrolling effect. The display of each frame is repeated a certain number of times and the more repetitions, the longer the single frame display will be and the slower the scrolling movement.
+The second "for" loop is used to display scrolling characters "0 to F", for a total of 17* 8 = 144 columns. Displaying the 0-8 column, then the 1-9 column, then the 2-10 column...... and so on…128-136 column in consecutively to achieve the scrolling effect. The display of each frame is repeated a certain number of times and the more repetitions, the longer the single frame display will be and the slower the scrolling movement.
 
 .. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_16.3_LED_Matrix/Sketch_16.3_LED_Matrix.ino
     :linenos: 
@@ -136,4 +136,4 @@ The second “for” loop is used to display scrolling characters "0 to F", for 
     :lines: 57-69
     :dedent:
 
-The amount of pins of ESP32 is limited, so you need to find ways to save pins. If you use ESP32’s GPIO to control the lattice without using 74HC595, you need 16 pins for the use of LED matrix. In this example, we use two 74HC595 to drive the LED matrix, requiring only three pins, so that we could save the rest of 13 pins.
+The amount of pins of ESP32 is limited, so you need to find ways to save pins. If you use ESP32's GPIO to control the lattice without using 74HC595, you need 16 pins for the use of LED matrix. In this example, we use two 74HC595 to drive the LED matrix, requiring only three pins, so that we could save the rest of 13 pins.

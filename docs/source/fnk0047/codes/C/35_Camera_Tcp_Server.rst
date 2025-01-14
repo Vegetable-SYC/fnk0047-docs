@@ -53,7 +53,7 @@ Visit https://github.com/Freenove/Freenove_app_for_Android, download the files i
 Menu
 -----------------------------------------------
 
-Open application "Freenove”, as shown below:
+Open application "Freenove", as shown below:
 
 .. image:: ../_static/imgs/35_Camera_Tcp_Server/Chapter35_03.png
     :align: center
@@ -97,7 +97,7 @@ There are two methods for you to check camera data of ESP32 via mobile phone APP
 Method 1
 ----------------------------------------
 
-Using your phone's WiFi function, select the WiFi name represented by ssid_AP in Sketch and enter the password “password_AP” to connect. 
+Using your phone's WiFi function, select the WiFi name represented by ssid_AP in Sketch and enter the password "password_AP" to connect. 
 
 .. image:: ../_static/imgs/35_Camera_Tcp_Server/Chapter35_08.png
     :align: center
@@ -107,12 +107,12 @@ Next, open Freenove app and select 4WD Car for Raspberry Pi mode.
 .. image:: ../_static/imgs/35_Camera_Tcp_Server/Chapter35_09.png
     :align: center
 
-Enter the IP address printed by serial port in the new interface, which generally is “192.168.4.1”
+Enter the IP address printed by serial port in the new interface, which generally is "192.168.4.1"
 
 .. image:: ../_static/imgs/35_Camera_Tcp_Server/Chapter35_10.png
     :align: center
 
-Click “Connect”.
+Click "Connect".
 
 .. image:: ../_static/imgs/35_Camera_Tcp_Server/Chapter35_11.png
     :align: center
@@ -120,9 +120,9 @@ Click “Connect”.
 Method 2:
 ---------------------------------------
 
-Using your phone's WiFi function, select the router named ssid_Router and enter the password “ssid_password” to connect. And then open Freenove app and select 4WD Car for Raspberry Pi mode. The operation is similar to Method 1.
+Using your phone's WiFi function, select the router named ssid_Router and enter the password "ssid_password" to connect. And then open Freenove app and select 4WD Car for Raspberry Pi mode. The operation is similar to Method 1.
 
-Enter the IP address printed by serial port in the new interface, which generally is not “192.168.4.1” but another one. The IP address in this example is “192.168.1.100”. After entering the IP address, click “Connect”.
+Enter the IP address printed by serial port in the new interface, which generally is not "192.168.4.1" but another one. The IP address in this example is "192.168.1.100". After entering the IP address, click "Connect".
 
 .. image:: ../_static/imgs/35_Camera_Tcp_Server/Chapter35_12.png
     :align: center

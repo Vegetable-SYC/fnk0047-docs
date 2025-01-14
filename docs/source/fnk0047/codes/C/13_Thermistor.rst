@@ -105,7 +105,7 @@ Sketch_13.1_Thermometer
 .. image:: ../_static/imgs/13_Thermistor/Chapter13_07.png
     :align: center
 
-Download the code to ESP32-WROVER, the terminal window will display the current ADC value, voltage value and temperature value. Try to “pinch” the thermistor (without touching the leads) with your index finger and thumb for a brief time, you should see that the temperature value increases.
+Download the code to ESP32-WROVER, the terminal window will display the current ADC value, voltage value and temperature value. Try to "pinch" the thermistor (without touching the leads) with your index finger and thumb for a brief time, you should see that the temperature value increases.
 
 :red:`If you have any concerns, please contact us via:` support@freenove.com
 

@@ -86,7 +86,7 @@ In this project, 3 potentiometers are used to control the RGB LED and in princip
 |                                                                                         |
 | |Chapter01_02|                                                                          |
 +-----------------+------------------+------------------------+---------------------------+
-| RGBLED x1       | Resistor 220Ω x1 | Jumper M/M x5          | Rotary potentiometer x1   |
+| RGBLED x1       | Resistor 220Ω x3 | Jumper M/M x13         | Rotary potentiometer x3   |
 |                 |                  |                        |                           |
 | |Chapter11_03|  | |Chapter01_04|   | |Chapter01_05|         | |Chapter09_00|            |
 +-----------------+------------------+------------------------+---------------------------+

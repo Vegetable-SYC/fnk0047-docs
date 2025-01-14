@@ -148,7 +148,7 @@ Reference
 
     Parameter 2: select the type of sensor, DHT11 or DHT12.
 
-    **getTempAndHumidity():** Obtain temperature and humidity data. The received data must be stored in the ‘TempAndHumidity’ class.
+    **getTempAndHumidity():** Obtain temperature and humidity data. The received data must be stored in the 'TempAndHumidity' class.
 
     **getStatus():** To judge whether the obtained data format is normal, the return value of 0 means the data is normal, and the return value of non-0 means the data is abnormal or the data fails to be obtained.
 
@@ -213,7 +213,7 @@ Sketch_24.2_Temperature_and_Humidity_Sensor
 .. image:: ../_static/imgs/24_Hygrothermograph_DHT11/Chapter24_11.png
     :align: center
 
-Download the code to ESP32-WROVER. The first line of LCD1602 shows the temperature value, and the second line shows the humidity value. Try to “pinch” the thermistor (without touching the leads) with your index finger and thumb for a brief time to observe the change in the LCD display value.
+Download the code to ESP32-WROVER. The first line of LCD1602 shows the temperature value, and the second line shows the humidity value. Try to "pinch" the thermistor (without touching the leads) with your index finger and thumb for a brief time to observe the change in the LCD display value.
 
 .. image:: ../_static/imgs/24_Hygrothermograph_DHT11/Chapter24_12.png
     :align: center

@@ -21,7 +21,7 @@ Component List
 |                                                              |
 | |Chapter01_02|                                               |
 +-----------------+------------------+-------------------------+
-|Jumper M/M x10   | Resistor 220Ω x1 | LED bar graph x1        |
+|Jumper M/M x10   | Resistor 220Ω x10| LED bar graph x1        |
 |                 |                  |                         |
 | |Chapter01_05|  | |Chapter01_04|   | |Chapter03_00|          |
 +-----------------+------------------+-------------------------+

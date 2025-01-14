@@ -125,7 +125,7 @@ In the code, we configure three pins to control the 74HC595 chip and define a on
 
     x=0x01;
 
-In the loop(), use “for” loop to send x to 74HC595 output pin to control the LED. In "for" loop, x will shift one bit to the LEFT in one cycle, then when data of x is sent to 74HC595, the LED that is turned ON will move one bit to the LEFT once.
+In the loop(), use "for" loop to send x to 74HC595 output pin to control the LED. In "for" loop, x will shift one bit to the LEFT in one cycle, then when data of x is sent to 74HC595, the LED that is turned ON will move one bit to the LEFT once.
 
 .. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_15.1_FlowingLight02/Sketch_15.1_FlowingLight02.ino
     :linenos: 
@@ -133,7 +133,7 @@ In the loop(), use “for” loop to send x to 74HC595 output pin to control the
     :lines: 30-34
     :dedent:
 
-In second “for” loop, the situation is the same. The difference is that x is shift from 0x80 to the RIGHT in order.
+In second "for" loop, the situation is the same. The difference is that x is shift from 0x80 to the RIGHT in order.
 The subfunction writeTo595() is used to write data to 74HC595 and immediately output on the port of 74HC595.
 
 Reference
