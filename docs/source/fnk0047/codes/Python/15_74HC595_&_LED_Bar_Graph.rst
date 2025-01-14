@@ -106,11 +106,7 @@ Move the program folder "Freenove_Ultimate_Starter_Kit_for_ESP32/Python/Python_C
 
 Open "Thonny", click "This computer"  ->  "D:"  ->  "Micropython_Codes"  ->  "15.1_Flowing_Water_Light". Select "my74HC595.py", right click your mouse to select "Upload to /", wait for "my74HC595.py"to be uploaded to ESP32-WROVER and then double click "Flowing_Water_Light.py". 
 
-<<<<<<< HEAD
 Flowing_Water_Light
-=======
-15.1_Flowing_Water_Light
->>>>>>> c02610ff4de2c29d754fb7b42146a6d9ce5b3380
 -------------------------------------------
 
 .. image:: ../_static/imgs/15_74HC595_&_LED_Bar_Graph/Chapter15_10.png

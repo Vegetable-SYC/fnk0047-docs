@@ -105,11 +105,7 @@ Move the program folder "Freenove_Ultimate_Starter_Kit_for_ESP32/Python/Python_C
 
 Open "Thonny", click"This computer"  ->  "D:"  ->  "Micropython_Codes"  ->  "04.1_BreatheLight" and double click "BreatheLight.py". 
 
-<<<<<<< HEAD
 BreatheLight
-=======
-04.1_BreatheLight
->>>>>>> c02610ff4de2c29d754fb7b42146a6d9ce5b3380
 ------------------------------------
 
 .. image:: ../_static/imgs/4_Analog_&_PWM/Chapter04_08.png
@@ -168,11 +164,7 @@ Reference
     
     **PWM.deinit():** Turn OFF PWM.
 
-<<<<<<< HEAD
 Project Meteor Flowing Light
-=======
-Project 4.2 Meteor Flowing Light
->>>>>>> c02610ff4de2c29d754fb7b42146a6d9ce5b3380
 ******************************************
 
 After learning about PWM, we can use it to control LED Bar Graph and realize a cooler Flowing Light.
@@ -229,11 +221,7 @@ Flowing Light with tail was implemented with PWM.
 
 Open "Thonny", click "This computer"  ->  "D:"  ->  "Micropython_Codes"  ->  "04.2_FlowingLight". Select"pwm.py", right click to select "Upload to /", wait for "pwm.py" to be uploaded to ESP32-WROVER and then double click "FlowingLight.py" 
 
-<<<<<<< HEAD
 FlowingLight
-=======
-04.2_FlowingLight
->>>>>>> c02610ff4de2c29d754fb7b42146a6d9ce5b3380
 -------------------------------
 
 .. image:: ../_static/imgs/4_Analog_&_PWM/Chapter04_12.png

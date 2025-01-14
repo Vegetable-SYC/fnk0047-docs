@@ -4,11 +4,7 @@ Chapter Touch Sensor
 
 ESP32 offers up to 10 capacitive touch GPIO, and as you can see from the previous section, mechanical switches are prone to jitter that must be eliminated when used, which is not the case with ESP32's built-in touch sensor. In addition, on the service life, the touch switch also has advantages that mechanical switch is completely incomparable.
 
-<<<<<<< HEAD
 Project Read Touch Sensor
-=======
-Project 10.1 Read Touch Sensor
->>>>>>> c02610ff4de2c29d754fb7b42146a6d9ce5b3380
 *********************************************
 
 This project reads the value of the touch sensor and prints it out.
@@ -99,15 +95,9 @@ Code
 
 Move the program folder "Freenove_Ultimate_Starter_Kit_for_ESP32/Python/Python_Codes" to disk(D) in advance with the path of "D:/Micropython_Codes".
 
-<<<<<<< HEAD
 Open "Thonny", click "This computer"  ->  "D:"  ->  "Micropython_Codes"  ->  "10.1_Read_Touch_Sensor" and double click "Read_Touch_Sensor.py".
 
 Read_Touch_Sensor
-=======
-Open "Thonny", click "This computer"  "D:"  "Micropython_Codes"  "10.1_Read_Touch_Sensor" and double click "Read_Touch_Sensor.py".
-
-10.1_Read_Touch_Sensor
->>>>>>> c02610ff4de2c29d754fb7b42146a6d9ce5b3380
 -------------------------------
 
 .. image:: ../_static/imgs/10_Touch_Sensor/Chapter10_10.png
@@ -136,11 +126,7 @@ Reference
     
     **TouchPad.read():** Read the capacitance of touchpad. If your fingers touch TouchPad pins, the capacitance decreases; Otherwise, it will not change.
 
-<<<<<<< HEAD
 Project Touch Lamp
-=======
-Project 10.2 Touch Lamp
->>>>>>> c02610ff4de2c29d754fb7b42146a6d9ce5b3380
 *****************************************
 
 In this project, we will use ESP32's touch sensor to create a touch switch lamp.
@@ -188,15 +174,9 @@ Code
 
 Move the program folder "Freenove_Ultimate_Starter_Kit_for_ESP32/Python/Python_Codes" to disk(D) in advance with the path of "D:/Micropython_Codes".
 
-<<<<<<< HEAD
 Open "Thonny, click "This computer"  ->  "D:"  ->  "Micropython_Codes"  ->  "10.2_TouchLamp"and double click "TouchLamp.py". 
 
 TouchLamp
-=======
-Open "Thonny, click "This computer"  "D:"  "Micropython_Codes"  "10.2_TouchLamp"and double click "TouchLamp.py". 
-
-10.2_TouchLamp
->>>>>>> c02610ff4de2c29d754fb7b42146a6d9ce5b3380
 ------------------------------------------
 
 .. image:: ../_static/imgs/10_Touch_Sensor/Chapter10_13.png

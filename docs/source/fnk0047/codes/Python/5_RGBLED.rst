@@ -77,11 +77,7 @@ Move the program folder "Freenove_Ultimate_Starter_Kit_for_ESP32/Python/Python_C
 
 Open "Thonny", click "This computer"  ->  "D:"  ->  "Micropython_Codes"  ->  "05.1_RandomColorLight"and double click "RandomColorLight.py". 
 
-<<<<<<< HEAD
 RandomColorLight
-=======
-05.1_RandomColorLight
->>>>>>> c02610ff4de2c29d754fb7b42146a6d9ce5b3380
 ----------------------------------------------
 
 .. image:: ../_static/imgs/5_RGB_LED/Chapter05_08.png
@@ -177,11 +173,7 @@ Reference
     
     **obj:** list of elements 
 
-<<<<<<< HEAD
 Project Gradient Color Light
-=======
-Project 5.2 Gradient Color Light
->>>>>>> c02610ff4de2c29d754fb7b42146a6d9ce5b3380
 *********************************************
 
 In the previous project, we have mastered the usage of RGBLED, but the random color display is rather stiff. This project will realize a fashionable Light with soft color changes.
@@ -194,11 +186,7 @@ In this code, the color model will be implemented and RGBLED will change colors 
 
 Open "Thonny", click"This computer"  ->  "D:"  ->  "Micropython_Codes"  ->  "05.2_GradientColorLight" and double click "GradientColorLight.py". 
 
-<<<<<<< HEAD
 GradientColorLight
-=======
-05.2_GradientColorLight
->>>>>>> c02610ff4de2c29d754fb7b42146a6d9ce5b3380
 ----------------------------------
 
 The following is the program code:

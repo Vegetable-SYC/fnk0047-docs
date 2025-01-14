@@ -198,7 +198,7 @@ Click "Run current script" and observe the message printed in "Shell".
 
 LEDs display as below: 
 
-.. image:: ../_static/imgs/9_AD_DA_Converter/Chapter09_12.png
+.. image:: ../_static/imgs/9_AD_DA_Converter/Chapter09_13.png
     :align: center
 
 "Shell" prints ADC value, DAC value, the output voltage of potentiometer and other information. In the code, we make the output voltage of the DAC pin equal to the input voltage of the ADC pin. Rotate the handle of the potentiometer, the printed information will change. When the voltage is greater than 1.6V (turn-on voltage of red LED), the LED starts to emit light. If you continue to increase the output voltage, the LED will gradually become brighter. And when the voltage is less than 1.6V, the LED will not light up, because this does not reach the turn-on voltage of the LED, which indirectly proves the difference between DAC and PWM. (If you have an oscilloscope, you can view the waveform output by the DAC through the oscilloscope)
