@@ -2,7 +2,7 @@
 Chapter Soldering Circuit Board
 ##############################################################################
 
-Project 36.1 Soldering a Buzzer
+Project Soldering a Buzzer
 *************************************************
 
 We have tried to use a buzzer in a previous chapter, and now we will solder a circuit that when the button is pressed, the buzzer sounds.

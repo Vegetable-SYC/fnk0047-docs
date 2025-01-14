@@ -98,39 +98,39 @@ Send 'Hello!'' from your phone, when the computer receives it, reply "Hi" to you
 Reference
 ----------------------------------------
 
-Class BluetoothSerial
+.. py:function:: Class BluetoothSerial
 
-This is a class library used to operate BluetoothSerial, which can directly read and set BluetoothSerial. Here are some member functions:
+    This is a class library used to operate BluetoothSerial, which can directly read and set BluetoothSerial. Here are some member functions:
 
-**begin(localName,isMaster):** Initialization function of the Bluetooth
+    **begin(localName,isMaster):** Initialization function of the Bluetooth
 
-name: name of Bluetooth module; Data type: String
+    **name:** name of Bluetooth module; Data type: String
 
-**isMaster:** bool type, whether to set Bluetooth as Master. By default, it is false.
+    **isMaster:** bool type, whether to set Bluetooth as Master. By default, it is false.
 
-**available():** acquire digits sent from the buffer, if not, return 0.
+    **available():** acquire digits sent from the buffer, if not, return 0.
 
-**read():** read data from Bluetooth, data type of return value is int.
+    **read():** read data from Bluetooth, data type of return value is int.
 
-**readString():** read data from Bluetooth, data type of return value is String.
+    **readString():** read data from Bluetooth, data type of return value is String.
 
-**write(val):** send an int data val to Bluetooth.
+    **write(val):** send an int data val to Bluetooth.
 
-**write(str):** send an Srtring data str to Bluetooth.
+    **write(str):** send an Srtring data str to Bluetooth.
 
-**write(buf, len):** Sends the first len data in the buf Array to Bluetooth. 
+    **write(buf, len):** Sends the first len data in the buf Array to Bluetooth. 
 
-**setPin(const char *pin):** set a four-digit Bluetooth pairing code. By default, it is 1234
+    **setPin(const char *pin):** set a four-digit Bluetooth pairing code. By default, it is 1234
 
-**connet(remoteName):** connect a Bluetooth named remoteName, data type: String
+    **connet(remoteName):** connect a Bluetooth named remoteName, data type: String
 
-**connect(remoteAddress[]):** connect the physical address of Bluetooth, data type: uint8-t. 
+    **connect(remoteAddress[]):** connect the physical address of Bluetooth, data type: uint8-t. 
 
-**disconnect():** disconnect all Bluetooth devices.
+    **disconnect():** disconnect all Bluetooth devices.
 
-**end():** disconnect all Bluetooth devices and turn off the Bluetooth, release all occupied space
+    **end():** disconnect all Bluetooth devices and turn off the Bluetooth, release all occupied space
 
-Project 27.2 Bluetooth Low Energy Data Passthrough
+Project Bluetooth Low Energy Data Passthrough
 ***********************************************************
 
 Component List
@@ -153,7 +153,7 @@ Connect Freenove ESP32 to the computer using the USB cable.
 Sketch
 ==========================
 
-Sketch_27.2_BLE
+Sketch_BLE
 ----------------------------
 
 .. image:: ../_static/imgs/27_Bluetooth/Chapter27_11.png
@@ -313,7 +313,7 @@ The design for creating the BLE server is:
     :lines: 44-57
     :dedent:
 
-Project 27.3 Bluetooth Control LED
+Project Bluetooth Control LED
 *********************************************
 
 In this section, we will control the LED with Bluetooth.
@@ -371,7 +371,7 @@ Connect Freenove ESP32 to the computer using a USB cable.
 Sketch
 ======================================
 
-Sketch_27.3_Bluetooth_Control_LED
+Sketch_Bluetooth_Control_LED
 --------------------------------------------
 
 .. image:: ../_static/imgs/27_Bluetooth/Chapter27_29.png

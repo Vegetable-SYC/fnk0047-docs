@@ -4,7 +4,7 @@ Chapter LED Bar
 
 We have learned how to control a LED blinking, next we will learn how to control a number of LEDs.
 
-Project 3.1 Flowing Light
+Project Flowing Light
 ********************************
 
 In this project, we use a number of LEDs to make a flowing light.
@@ -72,7 +72,11 @@ Code
 
 This project is designed to make a flowing water lamp. Which are these actions: First turn LED #1 ON, then turn it OFF. Then turn LED #2 ON, and then turn it OFF... and repeat the same to all 10 LEDs until the last LED is turns OFF. This process is repeated to achieve the "movements" of flowing water.
 
+<<<<<<< HEAD
+FlowingLight
+=======
 03.1_FlowingLight
+>>>>>>> c02610ff4de2c29d754fb7b42146a6d9ce5b3380
 ------------------------------
 
 Move the program folder "Freenove_Ultimate_Starter_Kit_for_ESP32/Python/Python_Codes" to disk(D) in advance with the path of "D:/Micropython_Codes".

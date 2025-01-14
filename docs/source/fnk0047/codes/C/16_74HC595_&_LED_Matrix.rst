@@ -5,7 +5,7 @@ Chapter 74HC595 & LED Matrix
 
 Thus far we have learned how to use the 74HC595 IC chip to control the LED bar graph and the 7-segment display. We will now use 74HC595 IC chips to control a LED matrix.
 
-Project 16.3 LED Matrix
+Project LED Matrix
 *************************************
 
 In this project, we will use two 74HC595 IC chips to control a monochrome (one color) (8X8) LED matrix to make it display both simple graphics and characters.

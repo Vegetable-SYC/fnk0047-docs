@@ -4,7 +4,7 @@ Chapter LED
 
 This chapter is the Start Point in the journey to build and explore ESP32 electronic projects. We will start with simple "Blink" project.
 
-Project 1.1 Blink
+Project Blink
 *************************************
 
 In this project, we will use ESP32 to control blinking a common LED.
@@ -156,7 +156,7 @@ Select the serial port.
 .. image:: ../_static/imgs/1_LED/Chapter01_15.png
     :align: center
 
-Sketch_01.1_Blink
+Sketch_Blink
 ---------------------------------
 
 .. image:: ../_static/imgs/1_LED/Chapter01_16.png

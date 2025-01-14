@@ -8,7 +8,7 @@ Chapter Read and Write the Sdcard
 
 An SDcard slot is integrated on the back of the ESP32 WROVER. In this chapter we learn how to use ESP32 to read and write SDcard.
 
-Project 30.1 SDMMC Test
+Project SDMMC Test
 ****************************************
 
 .. list-table:: 
@@ -141,7 +141,7 @@ Connect Freenove ESP32 to the computer using the USB cable.
 Sketch
 ======================================
 
-Sketch_30.1_SDMMC_Test
+Sketch_SDMMC_Test
 ---------------------------------------
 
 .. image:: ../_static/imgs/30_Read_and_Write_the_Sdcard/Chapter30_17.png

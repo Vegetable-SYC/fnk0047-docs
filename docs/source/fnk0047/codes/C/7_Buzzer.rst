@@ -4,7 +4,7 @@ Chapter Buzzer
 
 In this chapter, we will learn about buzzers that can make sounds.
 
-Project 7.1 Doorbell
+Project Doorbell
 *************************************
 
 We will make this kind of doorbell: when the button is pressed, the buzzer sounds; and when the button is released, the buzzer stops sounding.
@@ -125,7 +125,7 @@ Sketch
 
 In this project, a buzzer will be controlled by a push button switch. When the button switch is pressed, the buzzer sounds and when the button is released, the buzzer stops. It is analogous to our earlier project that controlled a LED ON and OFF.
 
-Sketch_07.1_Doorbell
+Sketch_Doorbell
 ---------------------------------
 
 .. image:: ../_static/imgs/7_Buzzer/Chapter07_12.png
@@ -145,7 +145,7 @@ The following is the program code:
 
 The code is logically the same as using button to control LED.
 
-Project 7.2 Alertor
+Project Alertor
 ************************************
 
 Next, we will use a passive buzzer to make an alarm.
@@ -157,7 +157,7 @@ Sketch
 
 In this project, the buzzer alarm is controlled by the button. Press the button, then buzzer sounds. If you release the button, the buzzer will stop sounding. It is logically the same as using button to control LED, but in the control method, passive buzzer requires PWM of certain frequency to sound.
 
-Sketch_07.2_Alertor
+Sketch_Alertor
 -------------------------------------
 
 .. image:: ../_static/imgs/7_Buzzer/Chapter07_14.png
@@ -208,7 +208,7 @@ Reference
 
     This function has some bugs in the current version (V1.0.4): when the call interval is less than 20ms, the resulting PWM will have an exception. We will get in touch with the authorities to solve this problem and give solutions in the following two projects.
 
-Project 7.3 Alertor (use timer)
+Project Alertor (use timer)
 *****************************************
 
 Due to some bugs in the function ledcWriteTone(), this project uses timer to generate software PWM to control the buzzer. The circuit is exactly the same as the last project.
@@ -218,7 +218,7 @@ Sketch
 
 The core of the code of this project is to create a timer to change the GPIO state to generate 50% pulse width PWM, and change the PWM frequency by changing the timing time of the timer.
 
-Sketch_07.3_Alertor
+Sketch_Alertor
 --------------------------------------------
 
 .. image:: ../_static/imgs/7_Buzzer/Chapter07_16.png

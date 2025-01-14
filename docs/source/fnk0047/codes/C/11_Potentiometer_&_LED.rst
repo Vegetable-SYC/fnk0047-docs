@@ -4,7 +4,7 @@ Chapter Potentiometer & LED
 
 We have learned how to use ADC and DAC before. When using DAC output analog to drive LED, we found that, when the output voltage is less than led turn-on voltage, the LED does not light; when the output analog voltage is greater than the LED voltage, the LED lights. This leads to a certain degree of waste of resources. Therefore, in the control of LED brightness, we should choose a more reasonable way of PWM control. In this chapter, we learn to control the brightness of LED through a potentiometer.
 
-Project 11.1 Soft Light
+Project Soft Light
 *********************************************
 
 In this project, we will make a soft light. We will use an ADC Module to read ADC values of a potentiometer and map it to duty cycle of the PWM used to control the brightness of a LED. Then you can change the brightness of a LED by adjusting the potentiometer.
@@ -55,7 +55,7 @@ Circuit
 Sketch
 =======================================
 
-Sketch_11.1_Softlight
+Sketch_Softlight
 ---------------------------------------
 
 .. image:: ../_static/imgs/11_Potentiometer_&_LED/Chapter11_02.png
@@ -72,7 +72,7 @@ The following is the code:
 
 In the code, read the ADC value of potentiometer and map it to the duty cycle of PWM to control LED brightness.
 
-Project 11.2 Soft Colorful Light 
+Project Soft Colorful Light 
 *****************************************
 
 In this project, 3 potentiometers are used to control the RGB LED and in principle it is the same as the Soft Light project. Namely, read the voltage value of the potentiometer and then convert it to PWM used to control LED brightness. Difference is that the original project only controlled one LED, but this project required (3) RGB LEDs.
@@ -114,7 +114,7 @@ Circuit
 Sketch
 ===========================
 
-Sketch_11.2_SoftColorfulLight
+Sketch_SoftColorfulLight
 -----------------------------------
 
 .. image:: ../_static/imgs/11_Potentiometer_&_LED/Chapter11_06.png
@@ -131,7 +131,7 @@ The following is the program code:
 
 In the code you can read the ADC values of the 3 potentiometers and map it into a PWM duty cycle to control the 3 LED elements to vary the color of their respective RGB LED.
 
-Project 11.3 Soft Rainbow Light
+Project Soft Rainbow Light
 ********************************************
 
 In this project, we use potentiometer to control Freenove 8 RGB LED Module.
@@ -159,7 +159,7 @@ Component List
 Sketch
 ====================================
 
-Sketch_11.3_Soft_Rainbow_Light
+Sketch_Soft_Rainbow_Light
 --------------------------------------
 
 .. image:: ../_static/imgs/11_Potentiometer_&_LED/Chapter11_09.png

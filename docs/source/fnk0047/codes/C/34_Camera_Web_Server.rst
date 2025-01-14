@@ -4,7 +4,7 @@ Chapter Camera Web Server
 
 In this section, we'll use ESP32's video function as an example to study.
 
-Project 34.1 Camera Web Server
+Project Camera Web Server
 ******************************************
 
 Connect ESP32 using USB and check its IP address through serial monitor. Use web page to access IP address to obtain video and image data.
@@ -32,22 +32,22 @@ Connect Freenove ESP32 to the computer using the USB cable.
 Sketch
 =====================================
 
-Sketch_34.1_As_CameraWebServer
+Sketch_As_CameraWebServer
 ---------------------------------------
 
-.. image:: ../_static/imgs/32_WiFi_Working_Modes/Chapter34_00.png
+.. image:: ../_static/imgs/34_Camera_Web_Server/Chapter34_00.png
     :align: center
 
 Before running the program, please modify your router's name and password in the box shown in the illustration above to make sure that your Sketch can compile and work successfully. 
 
 If your Arduino IDE prompts you that your sketch is out of your project's storage space, compile the code again as configured below. 
 
-.. image:: ../_static/imgs/32_WiFi_Working_Modes/Chapter34_01.png
+.. image:: ../_static/imgs/34_Camera_Web_Server/Chapter34_01.png
     :align: center
 
 Compile and upload codes to ESP32, open the serial monitor and set the baud rate to 115200, and the serial monitor will print out a network link address.
 
-.. image:: ../_static/imgs/32_WiFi_Working_Modes/Chapter34_02.png
+.. image:: ../_static/imgs/34_Camera_Web_Server/Chapter34_02.png
     :align: center
 
 If your ESP32 has been in the process of connecting to router, but the information above has not been printed out, please re-check whether the router name and password have been entered correctly and press the reset key on ESP32-WROVER to wait for a successful connection prompt. 
@@ -58,19 +58,19 @@ Taking the Google browser as an example, here's what the browser prints out afte
 
 We recommend that the resolution not exceed VGA(640x480).
 
-.. image:: ../_static/imgs/32_WiFi_Working_Modes/Chapter34_03.png
+.. image:: ../_static/imgs/34_Camera_Web_Server/Chapter34_03.png
     :align: center
 
 Click on Start Stream. The effect is shown in the image below.
 
-.. image:: ../_static/imgs/32_WiFi_Working_Modes/Chapter34_04.png
+.. image:: ../_static/imgs/34_Camera_Web_Server/Chapter34_04.png
     :align: center
 
 .. note::
     
     If sketch compilation fails due to ESP32 support package, follow the steps of the image to open the CameraWebServer. This sketch is the same as described in the tutorial above.  
 
-.. image:: ../_static/imgs/32_WiFi_Working_Modes/Chapter34_05.png
+.. image:: ../_static/imgs/34_Camera_Web_Server/Chapter34_05.png
     :align: center
 
 The following is the main program code. You need include other code files in the same folder when write your own code.
@@ -172,7 +172,7 @@ Reference
 
 :red:`We recommend that the resolution not exceed VGA(640x480).`
 
-Project 34.2 Video Web Server
+Project Video Web Server
 *******************************************
 
 Connect to ESP32 using USB and view its IP address through a serial monitor. Access IP addresses through web pages to obtain real-time video data.
@@ -197,7 +197,7 @@ Connect Freenove ESP32 to the computer using the USB cable.
 Sketch
 =================================
 
-Sketch_34.2_As_VideoWebServer
+Sketch_As_VideoWebServer
 ---------------------------------
 
 .. image:: ../_static/imgs/34_Camera_Web_Server/Chapter34_06.png

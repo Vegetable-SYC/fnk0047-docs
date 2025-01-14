@@ -4,10 +4,13 @@ Chapter Ultrasonic Ranging
 
 In this chapter, we learn a module which use ultrasonic to measure distance, HC SR04.
 
-Project 21.1 Ultrasonic Ranging
+Project Ultrasonic Ranging
 *********************************************
 
 In this project, we use ultrasonic ranging module to measure distance, and print out the data in the terminal.
+
+Component List
+==================================
 
 +------------------------------------+----------------------------------------------------+
 | ESP32-WROVER x1                    | GPIO Extension Board x1                            |
@@ -110,7 +113,7 @@ Note that the voltage of ultrasonic module is 5V in the circuit.
 Sketch
 ======================================
 
-Sketch_21.1_Ultrasonic_Ranging
+Sketch_Ultrasonic_Ranging
 ---------------------------------------
 
 .. image:: ../_static/imgs/21_Ultrasonic_Ranging/Chapter21_06.png
@@ -160,7 +163,7 @@ About function pulseIn():
     **value** : type of pulse to read: either HIGH or LOW. Allowed data types: int.
     **timeout** (optional): the number of microseconds to wait for the pulse to start; default is one second. 
 
-Project 21.2 Ultrasonic Ranging
+Project Ultrasonic Ranging
 *******************************************
 
 Component List and Circuit
@@ -186,7 +189,7 @@ Refer to the following operations:
 .. image:: ../_static/imgs/21_Ultrasonic_Ranging/Chapter21_09.png
     :align: center
 
-Sketch_21.2_Ultrasonic_Ranging
+Sketch_Ultrasonic_Ranging
 --------------------------------------------
 
 .. image:: ../_static/imgs/21_Ultrasonic_Ranging/Chapter21_10.png

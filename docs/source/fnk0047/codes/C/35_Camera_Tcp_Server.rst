@@ -4,7 +4,7 @@ Chapter Camera Tcp Server
 
 In the previous section, we used web page to display the video data captured by ESP32, and in this section, we will use a mobile phone to display it.
 
-Project 35.1 Camera Tcp Server
+Project Camera Tcp Server
 ******************************************
 
 Connect ESP32 using USB and check its IP address through serial monitor. Use a mobile phone to obtain video and image data.
@@ -129,7 +129,7 @@ Enter the IP address printed by serial port in the new interface, which generall
 
 The following is the main program code. You need include other code files in the same folder when write your own code.
 
-Sketch_35.1_Camera_Tcp_Server
+Sketch_Camera_Tcp_Server
 ------------------------------------------
 
 .. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_35.1_CameraTcpServer/Sketch_35.1_CameraTcpServer.ino

@@ -4,7 +4,7 @@ Chapter Buzzer
 
 In this chapter, we will learn about buzzers and the sounds they make.
 
-Project 7.1 Doorbell
+Project Doorbell
 *************************************
 
 We will make this kind of doorbell: when the button is pressed, the buzzer sounds; and when the button is released, the buzzer stops sounding.
@@ -148,7 +148,7 @@ The following is the program code:
 
 The code is logically the same as using button to control LED. 
 
-Project 7.2 Alertor
+Project Alertor
 ****************************************
 
 Next, we will use a passive buzzer to make an alarm.
@@ -160,9 +160,9 @@ Code
 
 In this project, the buzzer alarm is controlled by the button. Press the button, then buzzer sounds. If you release the button, the buzzer will stop sounding. In the logic, it is the same as using button to control LED. In the control method, passive buzzer requires PWM of certain frequency to sound.
 
-Open "Thonny", click "This computer"  "D:"  "Micropython_Codes"  "07.2_Alertor", and double click "Alertor.py". 
+Open "Thonny", click "This computer"  ->  "D:"  ->  "Micropython_Codes"  ->  "07.2_Alertor", and double click "Alertor.py". 
 
-07.2_Alertor
+Alertor
 ----------------------------------------
 
 .. literalinclude:: ../../../freenove_Kit/Python/Python_Codes/07.2_Alertor/Alerto.py

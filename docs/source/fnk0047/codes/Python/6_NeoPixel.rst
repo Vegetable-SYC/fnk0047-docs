@@ -4,7 +4,7 @@ Chapter LEDPixel
 
 This chapter will help you learn to use a more convenient RGB LED lamp, which requires only one GPIO control and can be connected in infinite series in theory. Each LED can be controlled independently.
 
-Project 6.1 LEDPixel
+Project LEDPixel
 ************************************
 
 Learn the basic usage of LEDPixel and use it to flash red, green, blue and white.
@@ -92,7 +92,11 @@ Move the program folder "Freenove_Ultimate_Starter_Kit_for_ESP32/Python/Python_C
 
 Open "Thonny", click "This computer"  ->  "D:"  ->  "Micropython_Codes"  ->  "06.1_Neopixel" and double click "Neopixel.py". 
 
+<<<<<<< HEAD
+Neopixel
+=======
 06.1_Neopixel
+>>>>>>> c02610ff4de2c29d754fb7b42146a6d9ce5b3380
 ---------------------------------------
 
 .. image:: ../_static/imgs/6_LEDPixel/Chapter06_12.png
@@ -161,7 +165,11 @@ Reference
 
 .. _Rainbow_Light:
 
+<<<<<<< HEAD
+Project Rainbow Light
+=======
 Project 6.2 Rainbow Light
+>>>>>>> c02610ff4de2c29d754fb7b42146a6d9ce5b3380
 *************************************
 
 In the previous project, we have mastered the usage of NeoPixel. This project will realize a slightly complicated Rainbow Light. The component list and the circuit are exactly the same as the project fashionable Light.

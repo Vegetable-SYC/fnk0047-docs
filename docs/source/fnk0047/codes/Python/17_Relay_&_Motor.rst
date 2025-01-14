@@ -4,7 +4,7 @@ Chapter Relay & Motor
 
 In this chapter, we will learn a kind of special switch module, relay module.
 
-Project 17.1 Relay & Motor
+Project Relay & Motor
 *********************************************
 
 In this project, we will use a push button switch indirectly to control the motor via a relay.
@@ -137,9 +137,9 @@ Use buttons to control the relays and motors.
 
 Move the program folder "Freenove_Ultimate_Starter_Kit_for_ESP32/Python/Python_Codes" to disk(D) in advance with the path of "D:/Micropython_Codes".
 
-Open "Thonny", click "This computer"  "D:"  "Micropython_Codes"  "17.1_Relay_And_Motor" and double click "Relay_And_Motor.py". 
+Open "Thonny", click "This computer"  ->  "D:"  ->  "Micropython_Codes"  ->  "17.1_Relay_And_Motor" and double click "Relay_And_Motor.py". 
 
-17.1_Relay_And_Motor
+Relay_And_Motor
 -----------------------------------
 
 .. image:: ../_static/imgs/17_Relay_&_Motor/Chapter17_15.png
@@ -158,7 +158,7 @@ The following is the program code:
 
 This section of code is basically the same as that of project Tablelamp. If you don't understand the program, you can click :ref:`here <Tablelamp>` to go back to the Tablelamp and study again.
 
-Project 17.2 Control Motor with Potentiometer
+Project Control Motor with Potentiometer
 *************************************************************
 
 Control the direction and speed of the motor with a potentiometer.
@@ -269,9 +269,9 @@ Code
 
 Move the program folder "Freenove_Ultimate_Starter_Kit_for_ESP32/Python/Python_Codes" to disk(D) in advance with the path of "D:/Micropython_Codes".
 
-Open "Thonny", click "This computer"  "D:"  "Micropython_Codes"  "17.2_Motor_And_Driver" and double click "Motor_And_Driver.py". 
+Open "Thonny", click "This computer"  ->  "D:"  ->  "Micropython_Codes"  ->  "17.2_Motor_And_Driver" and double click "Motor_And_Driver.py". 
 
-17.2_Motor_And_Driver
+Motor_And_Driver
 ----------------------------------------
 
 .. image:: ../_static/imgs/17.2_Motor_&_Driver/Chapter17_09.png

@@ -4,7 +4,7 @@ Chapter Infrared Remote
 
 In this chapter, we'll learn how to use an infrared remote control, and control a LED.
 
-Project 23.1 Infrared Remote Control
+Project Infrared Remote Control
 *****************************************
 
 First, we need to understand how infrared remote control works, then get the command sent from infrared remote control.
@@ -103,7 +103,7 @@ In the Freenove_Ultimate_Starter_Kit_for_ESP32/C/Libraries folder, select Freeno
 .. image:: ../_static/imgs/23_Infrared_Remote/Chapter23_08.png
     :align: center
 
-Sketch_23.1_Infrared_Remote_Control
+Sketch_Infrared_Remote_Control
 ------------------------------------------------
 
 .. image:: ../_static/imgs/23_Infrared_Remote/Chapter23_09.png
@@ -165,7 +165,7 @@ You need to add the library each time you use the Infrared Reception.
     **nec_available()** : Check whether IR data is obtained from the buffer.
     **data()** :Get IR data.
 
-Project 23.2 Control LED through Infrared Remote
+Project Control LED through Infrared Remote
 *************************************************************
 
 In this project, we will control the brightness of LED lights through an infrared remote control.
@@ -226,7 +226,7 @@ Sketch
 
 The sketch controls the brightness of the LED by determining the key value of the infrared received.
 
-Sketch_23.2_Control_LED_through_Infrared_Remote
+Sketch_Control_LED_through_Infrared_Remote
 ----------------------------------------------------------------
 
 .. image:: ../_static/imgs/23_Infrared_Remote/Chapter23_13.png

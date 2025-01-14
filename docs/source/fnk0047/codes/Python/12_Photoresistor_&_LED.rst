@@ -4,7 +4,7 @@ Chapter Photoresistor & LED
 
 In this chapter, we will learn how to use a photoresistor.
 
-Project 12.1 NightLamp
+Project NightLamp
 ***************************************
 
 A photoresistor is very sensitive to the amount of light present. We can take advantage of the characteristic to make a nightlight with the following function: when the ambient light is less (darker environment) the LED will automatically become brighter to compensate and when the ambient light is greater (brighter environment) the LED will automatically dim to compensate.

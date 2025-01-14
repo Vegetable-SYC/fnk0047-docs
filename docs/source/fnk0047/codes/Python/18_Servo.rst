@@ -4,7 +4,7 @@ Chapter Servo
 
 Previously, we learned how to control the speed and rotational direction of a motor. In this chapter, we will learn about servos which are a rotary actuator type motor that can be controlled to rotate to specific angles.
 
-Project 18.1 Servo Sweep
+Project Servo Sweep
 *******************************************
 
 First, we need to learn how to make a servo rotate.
@@ -87,9 +87,9 @@ Code
 
 Move the program folder "Freenove_Ultimate_Starter_Kit_for_ESP32/Python/Python_Codes" to disk(D) in advance with the path of "D:/Micropython_Codes".
 
-Open "Thonny", click "This computer"  "D:"  "Micropython_Codes"  "18.1_Servo_Sweep". Select "myservo.py", right click your mouse to select "Upload to /", wait for "myservo.py" to be uploaded to ESP32-WROVER and then double click "Servo_Sweep.py". 
+Open "Thonny", click "This computer"  ->  "D:"  ->  "Micropython_Codes"  ->  "18.1_Servo_Sweep". Select "myservo.py", right click your mouse to select "Upload to /", wait for "myservo.py" to be uploaded to ESP32-WROVER and then double click "Servo_Sweep.py". 
 
-18.1_Servo_Sweep
+Servo_Sweep
 ---------------------------------------
 
 .. image:: ../_static/imgs/18_Servo/Chapter18_12.png
@@ -155,7 +155,7 @@ Reference
     
         **us:** Range from 500-2500, with 500 corresponding to the servo, s 0 degree and 2500 corresponding to 180 degrees.
 
-Project 18.2 Servo Knop
+Project Servo Knop
 *********************************
 
 Use a potentiometer to control the servo motor to rotate at any angle.
@@ -203,7 +203,7 @@ Code
 
 Move the program folder "Freenove_Ultimate_Starter_Kit_for_ESP32/Python/Python_Codes" to disk(D) in advance with the path of "D:/Micropython_Codes".
 
-Open "Thonny", click "This computer"  "D:"  "Micropython_Codes"  "18.2_Servo_Knop". Select "myservo.py", right click your mouse to select "Upload to /", wait for "myservo.py" to be uploaded to ESP32-WROVER and then double click "Servo_Knop.py". 
+Open "Thonny", click "This computer"  ->  "D:"  ->  "Micropython_Codes"  ->  "18.2_Servo_Knop". Select "myservo.py", right click your mouse to select "Upload to /", wait for "myservo.py" to be uploaded to ESP32-WROVER and then double click "Servo_Knop.py". 
  
 18.2_Servo_Knop
 -------------------------------------

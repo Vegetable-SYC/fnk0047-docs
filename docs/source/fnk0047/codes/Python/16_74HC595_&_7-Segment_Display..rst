@@ -4,7 +4,7 @@ Chapter 74HC595 & 7-Segment Display
 
 In this chapter, we will introduce the 7-Segment Display.
 
-Project 16.1 7-Segment Display.
+Project 7-Segment Display.
 ********************************************
 
 We will use 74HC595 to control 7-segment display and make it display hexadecimal character "0-F".
@@ -115,11 +115,11 @@ In this section, the 74HC595 is used in the same way as in the previous section,
 
 Move the program folder "Freenove_Ultimate_Starter_Kit_for_ESP32/Python/Python_Codes" to disk(D) in advance with the path of "D:/Micropython_Codes".
 
-Open "Thonny", click "This computer"  "D:"  "Micropython_Codes"  "16.1_74HC595_and_7_segment_display". 
+Open "Thonny", click "This computer"  ->  "D:"  ->  "Micropython_Codes"  ->  "16.1_74HC595_and_7_segment_display". 
 
 Select "my74HC595.py", right click your mouse to select "Upload to /", wait for "my74HC595.py" to be uploaded to ESP32-WROVER and then double click"74HC595_and_7_segment_display.py". 
 
-16.1_74HC595_and_7_segment_display
+74HC595_and_7_segment_display
 ----------------------------------------------
 
 .. image:: ../_static/imgs/16_74HC595_&_7-Segment_Display/Chapter16_14.png
@@ -164,7 +164,7 @@ Send data of digital tube to 74HC595 chip.
     :lines: 11-11
     :dedent:
 
-Project 16.2 4-Digit 7-Segment Display
+Project 4-Digit 7-Segment Display
 ***************************************************
 
 Now, let's try to control more digit 7-segment display
@@ -237,9 +237,9 @@ Code
 
 In this code, we use the 74HC595 IC Chip to control the 4-Digit 7-Segment Display, and use the dynamic scanning method to show the changing number characters.
 
-Open "Thonny", click "This computer"  "D:"  "Micropython_Codes"  "16.2_4_Digit_7_Segment_Display". Select "my74HC595.py", right click your mouse to select "Upload to /", wait for "my74HC595.py" to be uploaded to ESP32-WROVER and double click "4_Digit_7_Segment_Display.py". 
+Open "Thonny", click "This computer"  ->  "D:"  ->  "Micropython_Codes"  ->  "16.2_4_Digit_7_Segment_Display". Select "my74HC595.py", right click your mouse to select "Upload to /", wait for "my74HC595.py" to be uploaded to ESP32-WROVER and double click "4_Digit_7_Segment_Display.py". 
 
-16.2_4_Digit_7_Segment_Display
+4_Digit_7_Segment_Display
 ---------------------------------------------------
 
 .. image:: ../_static/imgs/16_74HC595_&_7-Segment_Display/Chapter16_15.png

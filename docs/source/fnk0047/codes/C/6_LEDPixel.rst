@@ -4,7 +4,7 @@ Chapter LEDPixel
 
 This chapter will help you learn to use a more convenient RGB LED lamp, which requires only one GPIO control and can be connected in infinite series in theory. Each LED can be controlled independently.
 
-Project 6.1 LEDPixel
+Project LEDPixel
 ************************************
 
 Learn the basic usage of LEDPixel and use it to flash red, green, blue and white.
@@ -99,7 +99,7 @@ Library is an important feature of the open source world, and we know that Ardui
 How to install the library
 --------------------------------------
 
-Open Arduino IDE, click SketchInclude LibraryAdd .ZIP Library, In the pop-up window, find the file named "./Libraries/Freenove_WS2812_Lib_for_ESP32.Zip" which locates in this directory, and click OPEN.
+Open Arduino IDE, click Sketch -> Include Library -> Add .ZIP Library, In the pop-up window, find the file named "./Libraries/Freenove_WS2812_Lib_for_ESP32.Zip" which locates in this directory, and click OPEN.
 
 .. image:: ../_static/imgs/6_LEDPixel/Chapter06_05.png
     :align: center
@@ -109,7 +109,7 @@ In the pop-up window, Library Manager, search for the name of the Library, "Free
 .. image:: ../_static/imgs/6_LEDPixel/Chapter06_06.png
     :align: center
 
-Sketch_06.1_LEDPixel
+Sketch_LEDPixel
 ---------------------------------------
 
 .. image:: ../_static/imgs/6_LEDPixel/Chapter06_07.png
@@ -227,7 +227,7 @@ Reference
 
 If you want to learn more about this library, you can visit the following website: https://github.com/Freenove/Freenove_WS2812_Lib_for_ESP32
 
-Project 6.2 Rainbow Light
+Project Rainbow Light
 ********************************************
 
 In the previous project, we have mastered the use of LEDPixel. This project will realize a slightly complicated rainbow light. The component list and the circuit are exactly the same as the project fashionable light.
@@ -240,7 +240,7 @@ Continue to use the following color model to equalize the color distribution of 
 .. image:: ../_static/imgs/6_LEDPixel/Chapter06_09.png
     :align: center
 
-Sketch_06.2_RainbowLight
+Sketch_RainbowLight
 ----------------------------------
 
 .. image:: ../_static/imgs/6_LEDPixel/Chapter06_10.png

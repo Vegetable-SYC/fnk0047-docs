@@ -4,7 +4,7 @@ Chapter Serial Communication
 
 Serial Communication is a means of communication between different devices/devices. This section describes ESP32's Serial Communication.
 
-Project 8.1 Serial Print
+Project Serial Print
 ***************************************
 
 This project uses ESP32's serial communicator to send data to the computer and print it on the serial monitor.
@@ -74,7 +74,7 @@ Move the program folder "Freenove_Ultimate_Starter_Kit_for_ESP32/Python/Python_C
 
 Open "Thonny", click "This computer"  ->  "D:"  ->  "Micropython_Codes"  ->  "08.1_Serial_Print" and double "Serial_Print.py". 
 
-08.1_Serial_Print
+Serial_Print
 ------------------------------------------
 
 .. image:: ../_static/imgs/8_Serial_Communication/Chapter08_11.png
@@ -159,9 +159,9 @@ Component and Circuit are the same as in the previous project.
 Code
 ==========================================
 
-Open "Thonny", click "This computer"  "D:"  "Micropython_Codes"  "08.2_Serial_Read_and_Write" and double click "Serial_Read_and_Write.py". 
+Open "Thonny", click "This computer"  ->  "D:"  ->  "Micropython_Codes"  ->  "08.2_Serial_Read_and_Write" and double click "Serial_Read_and_Write.py". 
 
-08.2_Serial_Read_and_Write
+Serial_Read_and_Write
 ----------------------------------------------
 
 .. image:: ../_static/imgs/8_Serial_Communication/Chapter08_14.png
