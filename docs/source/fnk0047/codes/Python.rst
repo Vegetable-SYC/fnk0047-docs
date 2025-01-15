@@ -43,7 +43,7 @@ Python language
    Python/13_Thermistor
    Python/14_Joystick
    Python/15_74HC595_&_LED_Bar_Graph
-   Python/16_74HC595_&_7-Segment_Display.
+   Python/16_74HC595_&_7-Segment_Display
    Python/16_74HC595_&_LED_Matrix
    Python/17_Relay_&_Motor
    Python/18_Servo
