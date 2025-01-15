@@ -61,7 +61,7 @@ Python language
    Python/30_Camera_Web_Server
    Python/31_Soldering_Circuit_Board
 
-   .. toctree::
+.. toctree::
    :maxdepth: 1
    :caption: What's next?
    :glob:
