@@ -9,11 +9,7 @@ Usually, there are three essential parts in a complete automatic control device:
 
 Next, we will build a simple control system to control an LED through a push button switch.
 
-<<<<<<< HEAD
 Project Button & LED
-=======
-Project 2.1 Button & LED
->>>>>>> c02610ff4de2c29d754fb7b42146a6d9ce5b3380
 *****************************************
 
 In the project, we will control the LED state through a Push Button Switch. When the button is pressed, our LED will turn ON, and when it is released, the LED will turn OFF. This describes a Momentary Switch.
@@ -90,11 +86,7 @@ Move the program folder "Freenove_Ultimate_Starter_Kit_for_ESP32/Python/Python_C
 
 Open "Thonny", click "This computer"  ->  "D:"  ->  "Micropython_Codes"  ->  "02.1_ButtonAndLed" and double click "ButtonAndLed.py".
 
-<<<<<<< HEAD
 ButtonAndLed
-=======
-02.1_ButtonAndLed
->>>>>>> c02610ff4de2c29d754fb7b42146a6d9ce5b3380
 ------------------------------------------
 
 .. image:: ../_static/imgs/1_LED/Chapter02_04.png
@@ -177,11 +169,7 @@ If statement is used to execute the next statement when a certain condition is p
     else:
         ......
 
-<<<<<<< HEAD
 Project MINI table lamp
-=======
-Project 2.2 MINI table lamp
->>>>>>> c02610ff4de2c29d754fb7b42146a6d9ce5b3380
 **************************************
 
 We will also use a Push Button Switch, LED and ESP32 to make a MINI Table Lamp but this will function differently: Press the button, the LED will turn ON, and pressing the button again, the LED turns OFF. The ON switch action is no longer momentary (like a door bell) but remains ON without needing to continually press on the Button Switch.
@@ -205,11 +193,7 @@ Code
 
 .. _Tablelamp:
 
-<<<<<<< HEAD
 Tablelamp
-=======
-02.2_Tablelamp
->>>>>>> c02610ff4de2c29d754fb7b42146a6d9ce5b3380
 --------------------------------
 
 Move the program folder " **Freenove_Ultimate_Starter_Kit_for_ESP32/Python/Python_Codes** " to disk(D) in advance with the path of " **D:/Micropython_Codes** ".
